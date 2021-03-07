@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.AI;
 using zheavy.Combat;
 
 namespace zheavy.PlayerControl
@@ -15,7 +16,7 @@ namespace zheavy.PlayerControl
         [Header("Components")]
         private Animator anim;
         private Fighter fighter;
-        private CharacterController controller;
+        private NavMeshAgent navMeshAgent;
         private InputMaster inputMaster;
         private Camera cam;
 
@@ -23,7 +24,7 @@ namespace zheavy.PlayerControl
         {
             anim = GetComponent<Animator>();
             fighter = GetComponent<Fighter>();
-            controller = GetComponent<CharacterController>();
+            navMeshAgent = GetComponent<NavMeshAgent>();
             inputMaster = new InputMaster();
             cam = Camera.main;
         }
@@ -77,7 +78,7 @@ namespace zheavy.PlayerControl
                 // move the player with proper speed and previously calculated angle
                 Vector3 moveDirection = Quaternion.Euler(0, newAngle, 0) * Vector3.forward;
                 SetMoveSpeed();
-                controller.Move(moveDirection * Time.deltaTime * (moveSpeed));
+                navMeshAgent.Move(moveDirection * Time.deltaTime * (moveSpeed));
 
                 // set run animation while considering the speed factor
                 anim.SetFloat("Run_Speed", 1);
