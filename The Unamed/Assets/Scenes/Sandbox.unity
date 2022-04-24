@@ -15,19 +15,19 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 0
-  m_FogColor: {r: 0.4245283, g: 0.078097194, b: 0.13279697, a: 1}
-  m_FogMode: 1
-  m_FogDensity: 0.01
-  m_LinearFogStart: 16.17
+  m_FogColor: {r: 0.109069064, g: 0.2701796, b: 0.4056604, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.02
+  m_LinearFogStart: 17.93
   m_LinearFogEnd: 177.2
-  m_AmbientSkyColor: {r: 0.6415094, g: 0.51469815, b: 0.45087218, a: 1}
+  m_AmbientSkyColor: {r: 0.28235295, g: 0.39607844, b: 0.54509807, a: 1}
   m_AmbientEquatorColor: {r: 0.6037736, g: 0.20074542, b: 0.16233535, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 1, g: 1, b: 1, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 7ee27dd6dc72b1642a539241b0c06df0, type: 2}
-  m_HaloStrength: 0.482
+  m_HaloStrength: 0.961
   m_FlareStrength: 0.438
   m_FlareFadeSpeed: 0
   m_HaloTexture: {fileID: 0}
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.098144755, g: 0.13494769, b: 0.23523636, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028525, g: 0.22571585, b: 0.30692443, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -190,6 +190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &16140518 stripped
@@ -285,6 +289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
 --- !u!4 &33086422 stripped
@@ -358,6 +366,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -433,6 +445,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &37062829 stripped
@@ -506,6 +522,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -581,6 +601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &110550616 stripped
@@ -655,6 +679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
 --- !u!4 &136569894 stripped
@@ -728,6 +756,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -967,6 +999,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
 --- !u!4 &281352590 stripped
@@ -1040,6 +1076,10 @@ PrefabInstance:
     - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
@@ -1115,6 +1155,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
 --- !u!4 &298807779 stripped
@@ -1188,6 +1232,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -1924,6 +1972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &598272169 stripped
@@ -1997,6 +2049,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -2072,6 +2128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
 --- !u!4 &658889725 stripped
@@ -2145,6 +2205,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -2220,6 +2284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &881281268 stripped
@@ -2293,6 +2361,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -2368,6 +2440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
 --- !u!4 &982679292 stripped
@@ -2441,6 +2517,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -2547,6 +2627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &1037248710 stripped
@@ -2620,6 +2704,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -2695,6 +2783,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
 --- !u!4 &1088656366 stripped
@@ -2768,6 +2860,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -2843,6 +2939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
 --- !u!4 &1106753613 stripped
@@ -2916,6 +3016,10 @@ PrefabInstance:
     - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
@@ -2991,6 +3095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &1129005892 stripped
@@ -3064,6 +3172,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -3139,6 +3251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &1146387503 stripped
@@ -3212,6 +3328,10 @@ PrefabInstance:
     - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
@@ -3287,6 +3407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &1167101635 stripped
@@ -3360,6 +3484,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -3435,6 +3563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &1233054915 stripped
@@ -3508,6 +3640,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -3680,6 +3816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &1349931311 stripped
@@ -3753,6 +3893,10 @@ PrefabInstance:
     - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
@@ -3828,6 +3972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &1499242952 stripped
@@ -3901,6 +4049,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -3976,6 +4128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
 --- !u!4 &1546782819 stripped
@@ -4049,6 +4205,10 @@ PrefabInstance:
     - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
@@ -4124,6 +4284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
 --- !u!4 &1616896929 stripped
@@ -4197,6 +4361,10 @@ PrefabInstance:
     - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
@@ -4272,6 +4440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &1677472100 stripped
@@ -4346,6 +4518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
 --- !u!4 &1714600987 stripped
@@ -4353,6 +4529,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5888269785583424133, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
   m_PrefabInstance: {fileID: 1714600986}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1771015953 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 415218551231160724, guid: ecbb4c31badaca042962c42953928407, type: 3}
+  m_PrefabInstance: {fileID: 415218552534159273}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1771015955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771015953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7889091a455cbaf4cbc51775ff7ae817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1890805097}
 --- !u!1001 &1774415452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4419,6 +4613,10 @@ PrefabInstance:
     - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
@@ -4494,6 +4692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 6556263044910794815, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f01508df5dbfbb48a24c289e97ed91b, type: 3}
 --- !u!4 &1780024702 stripped
@@ -4567,6 +4769,14 @@ PrefabInstance:
     - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810570810725048347, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
@@ -4642,12 +4852,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &1849963625 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2573682750097410796, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
   m_PrefabInstance: {fileID: 1849963624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1890805097 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6950208898832655533, guid: ecbb4c31badaca042962c42953928407, type: 3}
+  m_PrefabInstance: {fileID: 415218552534159273}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1902245284
 GameObject:
@@ -4747,6 +4966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &2123612044 stripped
@@ -4821,6 +5044,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree.001 Variant(Polybrush Clone)
       objectReference: {fileID: 0}
+    - target: {fileID: 2953339358937813078, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
+      propertyPath: m_TagString
+      value: hideObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4249e5b65dd0c1742b97851845ff5f7c, type: 3}
 --- !u!4 &2126178871 stripped
@@ -4835,6 +5062,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 188682689014392008, guid: ecbb4c31badaca042962c42953928407, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fe6a831ab920f3d48a63e36ae7cdafe4, type: 2}
     - target: {fileID: 415218551114143662, guid: ecbb4c31badaca042962c42953928407, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4884,16 +5115,20 @@ PrefabInstance:
       value: Core
       objectReference: {fileID: 0}
     - target: {fileID: 415218551231160726, guid: ecbb4c31badaca042962c42953928407, type: 3}
+      propertyPath: far clip plane
+      value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 415218551231160726, guid: ecbb4c31badaca042962c42953928407, type: 3}
       propertyPath: near clip plane
       value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 415218551231160809, guid: ecbb4c31badaca042962c42953928407, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.3484739
+      value: -0.34847388
       objectReference: {fileID: 0}
     - target: {fileID: 415218552231552136, guid: ecbb4c31badaca042962c42953928407, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.3484739
+      value: -0.34847388
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecbb4c31badaca042962c42953928407, type: 3}
